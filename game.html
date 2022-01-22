@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Lower</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 d-flex text-center justify-content-center">
+            <div class="col-2 ACE" style="width: auto;" id="1">
+                <img src="./cards/a.svg" alt="" id="pic1">
+            </div>
+            <div class="col-2" id="2" style="width: auto;">
+                <img src="./cards/two.svg" alt="" id="pic2">
+            </div>
+            <div class="col-2" id="3" style="width: auto;">
+                <img src="./cards/three.svg" alt="" id="pic3">
+            </div>
+            <div class="col-2" id="4" style="width: auto;">
+                <img src="./cards/four.svg" alt="" id="pic4">
+            </div>
+            <div class="col-2" id="5" style="width: auto;">
+                <img src="./cards/five.svg" alt="" id="pic5">
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 d-flex mt-1 text-center justify-content-center">
+            <div class="col-2" id="6" style="width: auto;">
+                <img src="./cards/six.svg" alt="" id="pic6">
+            </div>
+            <div class="col-2" id="7" style="width: auto;">
+                <img src="./cards/seven.svg" alt="" id="pic7">
+            </div>
+            <div class="col-2" id="8" style="width: auto;">
+                <img src="./cards/eight.svg" alt="" id="pic8">
+            </div>
+            <div class="col-2" id="9" style="width: auto;">
+                <img src="./cards/nine.svg" alt="" id="pic9">
+            </div>
+            <div class="col-2" id="10" style="width: auto;">
+                <img src="./cards/ten.svg" alt="" id="pic10">
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 d-flex mt-1 text-center justify-content-center">
+
+            <div class="col-2" id="points" style="background-color: #1A0033;">
+                <p></p>
+                <p id="playerPoints"></p>
+
+            </div>
+            <div class="col-2" id="11" style="width: auto;">
+                <img src="./cards/j.svg" alt="" id="pic11">
+            </div>
+            <div class="col-2" id="12" style="width: auto;">
+                <img src="./cards/q.svg" alt="" id="pic12">
+            </div>
+            <div class="col-2" id="13" style="width: auto;">
+                <img src="./cards/k.svg" alt="" id="pic13">
+            </div>
+
+            <div class="col-2 d-flex justify-content-center align-items-center textAnswer" style="background-color: #1A0033; width: auto;">
+                <p id="text"></p>
+                <p id="answer"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

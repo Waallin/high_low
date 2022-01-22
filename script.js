@@ -134,7 +134,6 @@ function showCards() {
     }
 
     addedCards.push(remove);
-    //console.log('borttagna' + addedCards)
 
 }
 
@@ -343,9 +342,7 @@ function countPoints() {
 
     playerPoint.innerHTML = "Dina poäng: " + playerPoints;
 
-    console.log(playerPoints);
 
-    console.log(pointArray);
 }
 
 function localSave() {
